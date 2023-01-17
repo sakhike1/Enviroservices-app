@@ -8,14 +8,21 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxtjs/supabase": "^0.3.0",
     "@nuxtjs/tailwindcss": "^6.2.0",
     "autoprefixer": "^10.4.13",
     "nuxt": "3.0.0",
     "postcss": "^8.4.20",
+    "prettier": "2.8.3",
     "tailwindcss": "^3.2.4"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.4.0",
+    "aos": "^2.3.4",
+    "gsap": "^3.11.4",
     "nuxi": "^3.0.0",
-    "preline": "^1.6.0"
+    "preline": "^1.6.0",
+    "swiper": "^8.4.5",
+    "tilt.js": "^1.2.1"
   }
 }

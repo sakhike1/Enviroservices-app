@@ -1,56 +1,92 @@
 <template>
-  <!-- Features -->
-<!-- Features -->
-<div class="   h-200  px-12
- pt-20 text-gray-600 md:px-12 xl:px-16">
-    <div class=" hover:drop-shadow-blue-500/50 lg:bg-gray-200  dark:lg:bg-darker lg:p-16 rounded-[4rem] space-y-6 md:flex  md:gap-6 justify-center md:space-y-0 lg:items-center">
-      <div class="md:5/12 lg:w-1/2">
-        <img class="h-95 rounded-md w-80"
-          src="@/assets/byron-johnson-pj1jt4vBGZY-unsplash.jpg"
-          alt="image"
-          loading="lazy"
-          width="500"
-          height="600"
-        />
-      </div>
-     
-      <div class="md:7/12 lg:w-1/2">
-        <h2 class="text-3xl font-bold text-green-900 md:text-4xl dark:text-white">
-         Protect the environment for present and future generations
-        </h2>
-        <p class="my-8 text-gray-600 dark:text-gray-300">
-            Environmental issues are defined as harmful effects to Earth and its natural systems due to the actions of humans
-        </p>
+  <NuxtErrorBoundary>
+    <!-- Features -->
+    <!-- Features -->
+    <!-- Container for demo purpose -->
+    <div data-aos="fade-up-right" class="">
 
-        <a
-            href=""
-            class="relative border-md  flex h-12 w-full items-center justify-center px-8 before:absolute before:inset-0  bg-gradient-to-r from-teal-200 to-lime-200 before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800 sm:w-max"
-          >
-            <span
-              class="relative text-base font-semibold text-black dark:text-white"
-              >Learn More</span
-            >
-        </a>
-      </div>
+      <!-- Section: Design Block -->
+      <section class="mb-32">
+        <div class="relative overflow-hidden bg-no-repeat bg-cover" style="
+              background-position: 50%;
+              background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/006.webp');
+              height: 550px;
+            ">
+          <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
+            style="background-color: rgba(0, 0, 0, 0.75)">
+            <div class="flex justify-center items-center h-full">
+              <div class="text-center text-gray-400 px-6 md:px-12">
+                <h2 class="text-4xl font-bold tracking-tight leading-tight mb-12">
+                  We all have a duty which is to <br /><span>protect the environment</span>
+                </h2>
+                <Nuxt-Link to="Services">
+                  <button type="button"
+                    class="inline-block rounded-full bg-green-800 px-10 py-5  text-white font-medium text-sm leading-snug  rounded hover:bg-green-600 hover:bg-opacity-4 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+                    data-mdb-ripple="true" data-mdb-ripple-color="light">
+                    Learn more
+                  </button>
+                </Nuxt-Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section: Design Block -->
+
     </div>
-  </div>
 
-  <!-- End Features -->
-  <!-- End Features -->
+    <!-- End Features -->
+    <!-- End Features -->
+  </NuxtErrorBoundary>
 </template>
 
 <script>
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 export default {
-
+  mounted() {
+    AOS.init({})
+  }
 }
 </script>
 
 <style>
 .px-20 {
-    padding-left: 5rem;
-    padding-right: 2rem;
-    height: 600px;
+  padding-left: 5rem;
+  padding-right: 2rem;
+  height: 600px;
+}
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 10px;
 }
 
 
+.background-radial-gradient {
+  background-color: hsl(218, 41%, 15%);
+  background-image: radial-gradient(650px circle at 0% 0%,
+      hsl(218, 41%, 35%) 15%,
+      hsl(218, 41%, 30%) 35%,
+      hsl(218, 41%, 20%) 75%,
+      hsl(218, 41%, 19%) 80%,
+      transparent 100%),
+    radial-gradient(1250px circle at 100% 100%,
+      hsl(218, 41%, 45%) 15%,
+      hsl(218, 41%, 30%) 35%,
+      hsl(218, 41%, 20%) 75%,
+      hsl(218, 41%, 19%) 80%,
+      transparent 100%);
+}
 </style>

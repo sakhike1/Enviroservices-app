@@ -1,11 +1,13 @@
 {
-    "cSpell.words": [
-        "enviroment",
-        "nuxi",
-        "Nuxt",
-        "nuxtjs",
-        "preline",
-        "spacilist",
-        "tailwindcss"
-    ]
+  "cSpell.words": [
+    "enviroment",
+    "gsap",
+    "nuxi",
+    "Nuxt",
+    "nuxtjs",
+    "preline",
+    "spacilist",
+    "supabase",
+    "tailwindcss"
+  ]
 }
