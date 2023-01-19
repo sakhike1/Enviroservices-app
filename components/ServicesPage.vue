@@ -12,18 +12,17 @@
                     consulting support</p>
             </div>
 
-            <div data-aos="fade-up" data-aos-duration="3000" class="container py-20 my-24 px-6 mx-auto">
+            <div class="container py-20 my-24 px-6 mx-auto">
                 <div class="container flex flex-wrap p-8 mx-auto xl:px-0 lg:gap-10 lg:flex-nowrap">
                     <div class="flex items-center justify-center w-full lg:w-1/2">
                         <div>
                             <img alt="Benefits" src="@/assets/feature-illustration.png" loading="lazy" />
                         </div>
                     </div>
-                    <div data-aos="fade-up" data-aos-duration="3000"
-                        class="flex flex-wrap items-center w-full lg:w-1/2">
+                    <div class="flex flex-wrap items-center w-full lg:w-1/2">
                         <div>
 
-                            <div data-aos="fade-up" data-aos-duration="3000" class="w-full mt-5">
+                            <div class="w-full mt-5">
                                 <div class="flex items-start mt-8 space-x-3">
                                     <div
                                         class="flex items-center justify-center flex-shrink-0 mt-1 bg-indigo-500 rounded-md w-11 h-11">

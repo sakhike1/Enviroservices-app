@@ -49,20 +49,25 @@
             md:space-x-10
             md:mt-0
           ">
-            <Nuxt-Link to="/" class="text-sm active font-bold text-gray-500 hover:text-blue-400">
+            <Nuxt-Link to="/" class="text-sm active font-bold text-gray-500 hover:text-gray-400">
               Home
             </Nuxt-Link>
-            <Nuxt-Link to="Services" class="text-sm font-bold text-gray-500 hover:text-blue-400">
+            <Nuxt-Link to="Services" class="text-sm font-bold text-gray-500 hover:text-gray-400">
               Services
             </Nuxt-Link>
 
-            <Nuxt-Link to="Contact" class="text-sm font-bold text-gray-500 hover:text-blue-400">
+            <Nuxt-Link to="Number" class="text-sm font-bold text-gray-500 hover:text-gray-400">
+              About
+            </Nuxt-Link>
+            <Nuxt-Link to="Contact" class="text-sm font-bold text-gray-500 hover:text-gray-400">
               Contact
             </Nuxt-Link>
-            <button
+
+            <Nuxt-link to="SignIn" :disabled="loading"
               class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
               Client Zone
-            </button>
+            </Nuxt-link>
+
           </ul>
         </nav>
       </div>
@@ -74,7 +79,9 @@ export default {
   data() {
     return {
       showMenu: false,
+
     };
+
   },
 };
 </script>

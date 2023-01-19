@@ -1,42 +1,58 @@
 <template >
     <!-- Container for demo purpose -->
     <!-- component -->
-
-    <body class="bg-gray-700 ">
-        <div class="flex min-h-screen items-center justify-center">
-
-
-            <div class="min-h-1/2 bg-gray-900  border border-gray-900 rounded-2xl">
-
-                <div
-                    class="mx-4 sm:mx-24 md:mx-34 lg:mx-56 mx-auto  flex items-center space-y-4 py-16 font-semibold text-gray-500 flex-col">
-                    <svg viewBox="0 0 24 24" class=" h-12 w-12 text-white" fill="currentColor">
-                        <g>
-                            <path
-                                d="M23.643 4.937c-.835.37-1.732.62-2.675.733.962-.576 1.7-1.49 2.048-2.578-.9.534-1.897.922-2.958 1.13-.85-.904-2.06-1.47-3.4-1.47-2.572 0-4.658 2.086-4.658 4.66 0 .364.042.718.12 1.06-3.873-.195-7.304-2.05-9.602-4.868-.4.69-.63 1.49-.63 2.342 0 1.616.823 3.043 2.072 3.878-.764-.025-1.482-.234-2.11-.583v.06c0 2.257 1.605 4.14 3.737 4.568-.392.106-.803.162-1.227.162-.3 0-.593-.028-.877-.082.593 1.85 2.313 3.198 4.352 3.234-1.595 1.25-3.604 1.995-5.786 1.995-.376 0-.747-.022-1.112-.065 2.062 1.323 4.51 2.093 7.14 2.093 8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602.91-.658 1.7-1.477 2.323-2.41z">
-                            </path>
-                        </g>
-                    </svg>
-
-                    <h1 class="text-white text-2xl">iniciar sesion en twitter</h1>
-                    <input class="w-full p-2 bg-gray-900 rounded-md  border border-gray-700 focus:border-blue-700"
-                        placeholder="Correo" type="email" name="correo" id="">
-                    <input class="w-full p-2 bg-gray-900 rounded-md border border-gray-700 " placeholder="password*"
-                        type="password" name="correo" id="">
-                    <input class="w-full p-2 bg-gray-50 rounded-full font-bold text-gray-900 border border-gray-700 "
-                        type="submit" name="correo" id="">
-
-                    <p>no tienes cuenta?
-                        <a class="font-semibold text-sky-700" href="">Registrate</a>
-                    </p>
+    <section data-aos="fade-up-right" class="py-10 bg-white sm:py-16 lg:py-24">
+        <div data-aos="fade-up-right" class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+            <div data-aos="fade-up-right"
+                class="grid items-center grid-cols-1 lg:grid-cols-2 gap-x-12 xl:gap-x-24 gap-y-12">
+                <div data-aos="fade-up-right" class="relative lg:mb-12">
+                    <img data-aos="fade-up-right" class="absolute -right-0 -bottom-8 xl:-bottom-12 xl:-right-4"
+                        src="https://cdn.rareblocks.xyz/collection/celebration/images/content/3/dots-pattern.svg"
+                        alt="" />
+                    <div class="pl-12 pr-6">
+                        <img class="relative"
+                            src="https://cdn.rareblocks.xyz/collection/celebration/images/content/3/girl-working-on-laptop.jpg"
+                            alt="" />
+                    </div>
+                    <div class="absolute left-0 pr-12 bottom-8 xl:bottom-20">
+                        <div class="max-w-xs bg-blue-600 rounded-lg sm:max-w-md xl:max-w-md">
+                            <div class="px-3 py-4 sm:px-5 sm:py-8">
+                                <div class="flex items-start">
+                                    <p class="text-3xl sm:text-4xl">👋</p>
+                                    <blockquote class="ml-5">
+                                        <p class="text-sm font-medium text-white sm:text-lg">“Working with you guys was
+                                            a wow factor amazing team delivered on time.”</p>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
+                <div data-aos="fade-up-right" class="2xl:pl-16">
+                    <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl lg:leading-tight">We
+                        make working with us easy </h2>
+                    <p class="text-sm leading-relaxed text-gray-900 mt-9">We have a reputation of always going above and
+                        beyond to ensure that our customers are completely satisfied. our transparency in our business
+                        practices and customer service is what sets us apart from our competitors. give us a call on
+                        <span class=" text-bold text-black"> 0875245322 </span>
+                    </p>
 
+                </div>
             </div>
-
         </div>
+    </section>
 
 
-    </body>
     <!-- Container for demo purpose -->
 </template>
+
+<script>
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+export default {
+    mounted() {
+        AOS.init({})
+    }
+}
+</script>

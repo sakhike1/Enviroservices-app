@@ -1,18 +1,18 @@
 <template>
   <!-- Features -->
-  <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-    <div data-aos="fade-up" data-aos-duration="3000" class="relative p-6 md:p-16">
+  <div class="max-w-[85rem]  px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+    <div data-aos="fade-up" data-aos-duration="3000" class="relative p-6 md:p-16 ">
       <!-- Grid -->
-      <div class="relative z-10 lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center">
-        <div class="mb-10 lg:mb-0 lg:col-span-6 lg:col-start-8 lg:order-2">
+      <div class="relative  z-10 lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center">
+        <div class="mb-10  lg:mb-0 lg:col-span-6 lg:col-start-8 lg:order-2">
           <h2 class="text-2xl text-gray-800 font-bold sm:text-3xl dark:text-gray-200">
             Fully customizable rules to match your unique needs
           </h2>
 
           <!-- Tab Navs -->
-          <nav class="grid gap-4 mt-5 md:mt-10" aria-label="Tabs" role="tablist">
+          <nav class="grid  gap-4 mt-5 md:mt-10" aria-label="Tabs" role="tablist">
             <button type="button"
-              class="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left border border-transparent hover:border-slate-300 p-4 md:p-5 rounded-xl dark:hs-tab-active:border-transparent dark:hover:border-slate-700 active"
+              class="hs-tab-active:bg-white bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 hover:bg-white hover:shadow-md border hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left border  hover:border-slate-300 p-4 md:p-5 rounded-xl dark:hs-tab-active:border-transparent dark:hover:border-slate-700"
               id="tabs-with-card-item-1" data-hs-tab="#tabs-with-card-1" aria-controls="tabs-with-card-1" role="tab">
               <span class="flex">
                 <svg class="flex-shrink-0 mt-2 h-6 w-6 md:w-7 md:h-7 text-blue-600 dark:text-blue-600"
@@ -22,16 +22,16 @@
                   <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
                 </svg>
                 <span class="ml-6">
-                  <span class="block  text-lg font-semibold text-blue-600 dark:text-blue-600">Advanced
+                  <span class="block  text-gray-500 font-semibold  dark:text-blue-600">Advanced
                     tools</span>
-                  <span class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-800 dark:text-gray-200">Use Preline
+                  <span class="block text-sm text-white dark:hs-tab-active:text-gray-800 dark:text-gray-200">Use Preline
                     thoroughly thought and automated libraries to manage your businesses.</span>
                 </span>
               </span>
             </button>
 
             <button type="button"
-              class="hs-tab-active:bg-white border hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left border  hover:border-slate-300 p-4 md:p-5 rounded-xl dark:hs-tab-active:border-transparent dark:hover:border-slate-700"
+              class="hs-tab-active:bg-white bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 hover:bg-white hover:shadow-md border hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left border  hover:border-slate-300 p-4 md:p-5 rounded-xl dark:hs-tab-active:border-transparent dark:hover:border-slate-700"
               id="tabs-with-card-item-2" data-hs-tab="#tabs-with-card-2" aria-controls="tabs-with-card-2" role="tab">
               <span class="flex">
                 <svg class="flex-shrink-0 mt-2 h-6 w-6 md:w-7 md:h-7 text-blue-600 dark:text-blue-600"
@@ -40,15 +40,15 @@
                     d="M0 0h1v15h15v1H0V0Zm14.817 3.113a.5.5 0 0 1 .07.704l-4.5 5.5a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61 4.15-5.073a.5.5 0 0 1 .704-.07Z" />
                 </svg>
                 <span class="ml-6">
-                  <span class="block text-lg font-semibold text-blue-600 dark:text-blue-600">Smart dashboards</span>
-                  <span class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-800 dark:text-gray-200">Quickly
+                  <span class="block text-lg font-semibold text-gray-500 ">Smart dashboards</span>
+                  <span class="block text-sm text-white dark:hs-tab-active:text-gray-800 dark:text-gray-200">Quickly
                     Preline sample components, copy-paste codes, and start right off.</span>
                 </span>
               </span>
             </button>
 
             <button type="button"
-              class="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left border  hover:border-slate-300 p-4 md:p-5 rounded-xl dark:hs-tab-active:border-transparent dark:hover:border-slate-700"
+              class="hs-tab-active:bg-white bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left border  hover:border-slate-300 p-4 md:p-5 rounded-xl dark:hs-tab-active:border-transparent dark:hover:border-slate-700"
               id="tabs-with-card-item-3" data-hs-tab="#tabs-with-card-3" aria-controls="tabs-with-card-3" role="tab">
               <span class="flex">
                 <svg class="flex-shrink-0 mt-2 h-6 w-6 md:w-7 md:h-7 text-blue-600 dark:text-blue-600"
@@ -57,8 +57,8 @@
                     d="M5.52.359A.5.5 0 0 1 6 0h4a.5.5 0 0 1 .474.658L8.694 6H12.5a.5.5 0 0 1 .395.807l-7 9a.5.5 0 0 1-.873-.454L6.823 9.5H3.5a.5.5 0 0 1-.48-.641l2.5-8.5zM6.374 1 4.168 8.5H7.5a.5.5 0 0 1 .478.647L6.78 13.04 11.478 7H8a.5.5 0 0 1-.474-.658L9.306 1H6.374z" />
                 </svg>
                 <span class="ml-6">
-                  <span class="block text-lg font-semibold text-blue-600 dark:text-blue-600">Powerful features</span>
-                  <span class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-800 dark:text-gray-200">Reduce time
+                  <span class="block text-lg font-semibold text-gray-500 dark:text-blue-600">Powerful features</span>
+                  <span class="block text-sm text-white dark:hs-tab-active:text-gray-800 dark:text-gray-200">Reduce time
                     and effort on building modern look design with Preline only.</span>
                 </span>
               </span>
