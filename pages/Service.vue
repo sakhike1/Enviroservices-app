@@ -1,6 +1,5 @@
 <template>
-
     <NavBar />
-    <Number />
+    <ServicePage />
     <Footer />
 </template>

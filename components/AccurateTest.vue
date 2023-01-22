@@ -6,7 +6,7 @@
       <div class="relative  z-10 lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center">
         <div class="mb-10  lg:mb-0 lg:col-span-6 lg:col-start-8 lg:order-2">
           <h2 class="text-2xl text-gray-800 font-bold sm:text-3xl dark:text-gray-200">
-            Fully customizable rules to match your unique needs
+            We deliver accurate test and results on time
           </h2>
 
           <!-- Tab Navs -->
@@ -24,8 +24,9 @@
                 <span class="ml-6">
                   <span class="block  text-gray-500 font-semibold  dark:text-blue-600">Advanced
                     tools</span>
-                  <span class="block text-sm text-white dark:hs-tab-active:text-gray-800 dark:text-gray-200">Use Preline
-                    thoroughly thought and automated libraries to manage your businesses.</span>
+                  <span class="block text-sm text-white dark:hs-tab-active:text-gray-800 dark:text-gray-200">Modeling
+                    and simulation tools, which can be used to predict the impacts of different environmental changes
+                    and management strategies.</span>
                 </span>
               </span>
             </button>
@@ -40,9 +41,10 @@
                     d="M0 0h1v15h15v1H0V0Zm14.817 3.113a.5.5 0 0 1 .07.704l-4.5 5.5a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61 4.15-5.073a.5.5 0 0 1 .704-.07Z" />
                 </svg>
                 <span class="ml-6">
-                  <span class="block text-lg font-semibold text-gray-500 ">Smart dashboards</span>
+                  <span class="block text-lg font-semibold text-gray-500 ">Smart system tools</span>
                   <span class="block text-sm text-white dark:hs-tab-active:text-gray-800 dark:text-gray-200">Quickly
-                    Preline sample components, copy-paste codes, and start right off.</span>
+                    Laboratory equipment, such as spectrophotometers and microscopes, which can be used to analyze
+                    samples of water, soil, and other materials.</span>
                 </span>
               </span>
             </button>
@@ -58,8 +60,8 @@
                 </svg>
                 <span class="ml-6">
                   <span class="block text-lg font-semibold text-gray-500 dark:text-blue-600">Powerful features</span>
-                  <span class="block text-sm text-white dark:hs-tab-active:text-gray-800 dark:text-gray-200">Reduce time
-                    and effort on building modern look design with Preline only.</span>
+                  <span class="block text-sm text-white dark:hs-tab-active:text-gray-800 dark:text-gray-200">Sensor
+                    networks, which can be used to collect data on things like air and water quality in real-time</span>
                 </span>
               </span>
             </button>

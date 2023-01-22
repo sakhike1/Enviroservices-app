@@ -1,7 +1,7 @@
 <template>
-    <section class="bg-white">
+    <section class="bg-gradient-to-r from-rose-100 to-teal-100">
         <div class="grid grid-cols-1 lg:grid-cols-2">
-            <div class="flex items-center justify-center px-4 py-10 bg-white sm:px-6 lg:px-8 sm:py-16 lg:py-24">
+            <div class="flex items-center justify-center px-4 py-10  sm:px-6 lg:px-8 sm:py-16 lg:py-24">
                 <div class="xl:w-full xl:max-w-sm 2xl:max-w-md xl:mx-auto">
                     <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl">Sign up to Celebration</h2>
                     <p class="mt-2 text-base text-gray-600">Already have an account? <Nuxt-link to="SignIn" title=""
@@ -61,8 +61,8 @@
 
             <div class="flex items-center justify-center px-4 py-10 sm:py-16 lg:py-24  sm:px-6 lg:px-8">
                 <div>
-                    <img class="w-full mx-auto"
-                        src="https://cdn.rareblocks.xyz/collection/celebration/images/signup/1/cards.png" alt="" />
+
+                    <img class="w-full mx-auto" src="~/assets/6913-removebg-preview.png" alt="" />
 
 
                 </div>

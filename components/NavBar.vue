@@ -52,11 +52,11 @@
             <Nuxt-Link to="/" class="text-sm active font-bold text-gray-500 hover:text-gray-400">
               Home
             </Nuxt-Link>
-            <Nuxt-Link to="Services" class="text-sm font-bold text-gray-500 hover:text-gray-400">
+            <Nuxt-Link to="Service" class="text-sm font-bold text-gray-500 hover:text-gray-400">
               Services
             </Nuxt-Link>
 
-            <Nuxt-Link to="Number" class="text-sm font-bold text-gray-500 hover:text-gray-400">
+            <Nuxt-Link to="Team" class="text-sm font-bold text-gray-500 hover:text-gray-400">
               About
             </Nuxt-Link>
             <Nuxt-Link to="Contact" class="text-sm font-bold text-gray-500 hover:text-gray-400">

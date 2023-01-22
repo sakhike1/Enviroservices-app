@@ -3,7 +3,7 @@
     <!-- Features -->
     <!-- Features -->
     <!-- Container for demo purpose -->
-    <div data-aos="fade-up-right" class="">
+    <div class="">
 
       <!-- Section: Design Block -->
       <section class="mb-32">
@@ -19,13 +19,13 @@
                 <h2 class="text-4xl font-bold tracking-tight leading-tight mb-12">
                   We all have a duty which is to <br /><span>protect the environment</span>
                 </h2>
-                <Nuxt-Link to="Services">
-                  <button type="button"
+                <NuxtLink to="Services">
+                  <button to="Services" type="button"
                     class="inline-block rounded-full bg-green-800 px-10 py-5  text-white font-medium text-sm leading-snug  rounded hover:bg-green-600 hover:bg-opacity-4 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
                     data-mdb-ripple="true" data-mdb-ripple-color="light">
                     Learn more
                   </button>
-                </Nuxt-Link>
+                </NuxtLink>
               </div>
             </div>
           </div>

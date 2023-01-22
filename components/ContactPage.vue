@@ -10,13 +10,13 @@
                             For any environmental needs
                         </h1>
 
-                        <p class="max-w-xl mt-6">
+                        <p class="max-w-xl text-xs text-gray-200 mt-6">
                             As the increase in temperature is concerning, there is a need to
                             keep a watch on the toxic compounds we ingest that pollute the
                             atmosphere. We need to adopt environmentally sustainable methods
                             to minimise
                         </p>
-                        <Nuxt-link to="Number">
+                        <Nuxt-link to="Sales">
                             <button
                                 class="px-8 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50">
                                 Give us a call

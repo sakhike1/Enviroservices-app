@@ -1,12 +1,12 @@
 <template>
-  <NavBar/>
-  <HerePage/>
-  <Services/>
-  <Contact/>
-  <Carousel/>
-  <Callus/>
-  <WhatWeDo/>
-  <docs/>
-  <Footer/>
+  <NavBar />
+  <HeroPage />
+  <ProtectEnvironment />
+  <HumanExistence />
+  <Carousel />
+  <Callus />
+  <WhatWeDo />
+  <AccurateTest />
+  <Footer />
 </template>
 
