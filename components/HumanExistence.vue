@@ -15,8 +15,11 @@
         <div class="mt-4 md:mt-8">
           <nuxt-link to="Contact">
             <button to="Contact"
-              class="inline-block rounded bg-gradient-to-r from-teal-200 to-lime-200 px-12 py-3 text-sm font-medium text-black transition  focus:outline-none focus:ring focus:ring-yellow-400">
-              Get a qoute
+              class="rounded-full px-14 py-6 m-1 overflow-hidden relative group cursor-pointer border-2 font-medium border-bg-black text-indigo-600 text-white">
+              <span
+                class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-green-600 top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
+              <span class="relative text-black transition duration-300 group-hover:text-white ease">Get a qoute
+              </span>
             </button>
           </nuxt-link>
         </div>
@@ -27,6 +30,7 @@
       src="https://media.istockphoto.com/id/607653484/photo/scientist-examing-toxic-water.jpg?s=612x612&w=0&k=20&c=ksT_OB3i5Jcd3RMWZhVFBvge97JcjK8TnWzv4dN1MGI="
       class="h-full z-40 w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-tl-[30px] md:h-[calc(100%_-_4rem)] md:rounded-tl-[60px]" />
   </section>
+
 
   <!-- End Features -->
 </template>

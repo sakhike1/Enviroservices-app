@@ -14,7 +14,7 @@
           <div class="mt-3 grid space-y-3">
 
             <p> <Nuxt-Link class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
-                to="Services">Services</Nuxt-Link>
+                to="Service">Services</Nuxt-Link>
             </p>
           </div>
         </div>
@@ -24,7 +24,7 @@
           <h4 class="font-semibold text-gray-100">Mpilo Enviroservices</h4>
 
           <div class="mt-3 grid space-y-3">
-            <p><nuxt-link class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" to="Number">About us</nuxt-link>
+            <p><nuxt-link class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" to="Team">About us</nuxt-link>
             </p>
             <p><nuxt-link class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200" to="Contact">Careers</nuxt-link>
               <span class="inline ml-1 text-xs bg-blue-700 text-white py-1 px-2 rounded-md">We're hiring</span>

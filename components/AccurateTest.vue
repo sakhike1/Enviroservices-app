@@ -136,4 +136,8 @@ export default {
   --tw-bg-opacity: 1;
   background-color: rgb(241 245 249 / var(--tw-bg-opacity));
 }
+
+.gap-4 {
+  gap: 2rem;
+}
 </style>

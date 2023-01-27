@@ -17,8 +17,9 @@
     "tailwindcss": "^3.2.4"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.4.0",
+    "@supabase/supabase-js": "^2.4.1",
     "aos": "^2.3.4",
+    "axios": "^1.2.4",
     "gsap": "^3.11.4",
     "nuxi": "^3.0.0",
     "preline": "^1.6.0",
