@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    'node_modules/preline/dist/*.js',
+    "node_modules/preline/dist/*.js",
     "./components/**/*.{js,vue,ts}",
     "./layouts/**/*.vue",
     "./pages/**/*.vue",
@@ -10,7 +10,20 @@ module.exports = {
     "./app.vue",
   ],
   theme: {
+    extend: {
+      container: {
+        center: true,
+        screens: {
+          lg: "1124px",
+          xl: "1124px",
+          "2xl": "1124px",
+        },
+      },
+    },
+  },
+  plugins: {},
+  theme: {
     extend: {},
   },
-  plugins: [require('preline/plugin'),],
-}
+  plugins: [require("preline/plugin")],
+};

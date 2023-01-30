@@ -14,7 +14,7 @@
                                 a free account</nuxt-link>
                         </p>
 
-                        <form @submit.prevent="register" class="mt-8">
+                        <form class="mt-8">
                             <div class="space-y-5">
                                 <div>
                                     <label for="" class="text-base font-medium text-gray-900">
@@ -67,7 +67,6 @@
 </template>
 
 <script>
-import axios from 'axios'
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -77,30 +76,6 @@ export default {
     mounted() {
         AOS.init({});
     },
-    data() {
-        return {
-            email: '',
-            password: '',
-        }
-    },
-    methods: {
-        async register() {
-            try {
-                const { data } = await axios.post('https://clfplvyghcshgxhctwdk.supabase.co/register', {
-                    email: this.email,
-                    password: this.password
-                });
-                if (data.status === 'success') {
-                    this.$store.commit('setToken', data.token);
-                    this.$router.push('/dashboard');
-                } else {
-                    this.error = data.message;
-                }
-            } catch (error) {
-                this.error = error.message;
-            }
-        }
-    }
 }
-</script>
 
+</script>
