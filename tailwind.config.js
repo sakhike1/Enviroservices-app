@@ -18,6 +18,10 @@ module.exports = {
           xl: "1124px",
           "2xl": "1124px",
         },
+        fontSize: {
+          "body-lg": "1rem",
+          body: ".875rem",
+        },
       },
     },
   },

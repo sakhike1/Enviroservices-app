@@ -15,9 +15,9 @@
           <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
             style="background-color: rgba(0, 0, 0, 0.55)">
             <div class="flex justify-center items-center h-full">
-              <div data-aos="fade-up" data-aos-duration="3000" class="text-center text-gray-200 px-6 md:px-12">
-                <h2 class="text-4xl font-bold tracking-tight leading-tight mb-12">
-                  We all have a duty which is to <br /><span>protect the environment</span>
+              <div data-aos="fade-up" data-aos-duration="3000" class="text-center text-gray-400 px-6 md:px-12">
+                <h2 class=" text-3xl font-bold tracking-tight leading-tight mb-12">
+                  We all have a duty to <br />protect the <span class="text-green-600"> environment</span>
                 </h2>
                 <NuxtLink to="Service">
                   <button to="Services" type="button"

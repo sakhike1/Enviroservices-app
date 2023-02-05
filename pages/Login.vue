@@ -1,5 +1,5 @@
 <template>
     <NavBar />
-    <SignIn />
+    <Login />
     <Footer />
 </template>

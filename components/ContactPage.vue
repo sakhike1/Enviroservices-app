@@ -83,14 +83,17 @@ export default {
     },
     data() {
         return {
-            name: '',
-            email: '',
-            message: ''
+            formdata: {
+                name: '',
+                email: '',
+                message: ''
+
+            },
         }
     },
     methods: {
         async submitForm() {
-            const supabase = createClient('https://clfplvyghcshgxhctwdk.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNsZnBsdnlnaGNzaGd4aGN0d2RrIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NzM4MTc2NjAsImV4cCI6MTk4OTM5MzY2MH0.MaDnZcvlbcfPH5gRAORmPBITz-2k9m2It-GHGKezmiI')
+            const supabase = createClient('https://fkwcupzorassszwjghru.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZrd2N1cHpvcmFzc3N6d2pnaHJ1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2NzUxMTI5OTgsImV4cCI6MTk5MDY4ODk5OH0.9q6voKu1B0YCBeHQ6rPt6peGSxSxZTeGtq38x3X_gdw')
             await supabase.from('contacts').insert({ name: this.name, email: this.email, message: this.message })
             alert('Message sent thank you !')
             this.$router.push('/')

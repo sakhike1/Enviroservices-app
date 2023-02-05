@@ -4,7 +4,8 @@
       <!-- Grid -->
       <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
         <div class="col-span-full lg:col-span-1">
-          <img class="object-fit h-20 w-23" src="@/assets/img.png" alt="">
+          <img class="transform transition duration-500 hover:scale-110 object-fit h-20 w-23" src="@/assets/img.png"
+            alt="">
         </div>
         <!-- End Col -->
 

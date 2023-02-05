@@ -17,7 +17,8 @@
               text-white
               md:text-2xl
               hover:text-blue-400
-            "><img class="object-fit h-20 w-23" src="@/assets/img.png" alt="">
+            "><img class=" transform transition duration-500 hover:scale-110 shadow-2xl object-fit h-20 w-23"
+                src="@/assets/img.png" alt="">
 
             </router-link>
             <!-- Mobile menu button -->
@@ -63,8 +64,8 @@
               Contact
             </Nuxt-Link>
 
-            <Nuxt-link to="SignIn" :disabled="loading"
-              class="text-white shadow-inner  shadow-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
+            <Nuxt-link to="Login" :disabled="loading"
+              class="transform transition duration-500 hover:scale-110 text-white shadow-inner   shadow-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
               Client Zone
             </Nuxt-link>
 
