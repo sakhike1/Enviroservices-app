@@ -6,6 +6,6 @@ export default defineNuxtConfig({
     transpile: ["gsap"],
   },
   app: {
-    baseURL: "/Home",
+    baseURL: "Home",
   },
 });
