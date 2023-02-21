@@ -85,7 +85,6 @@
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { createClient } from "@supabase/supabase-js";
-const supabase = createClient('https://fkwcupzorassszwjghru.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZrd2N1cHpvcmFzc3N6d2pnaHJ1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2NzUxMTI5OTgsImV4cCI6MTk5MDY4ODk5OH0.9q6voKu1B0YCBeHQ6rPt6peGSxSxZTeGtq38x3X_gdw')
 
 
 export default {
@@ -104,7 +103,8 @@ export default {
     },
     methods: {
         async submitForm() {
-           
+           const supabase = createClient('https://fkwcupzorassszwjghru.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZrd2N1cHpvcmFzc3N6d2pnaHJ1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2NzUxMTI5OTgsImV4cCI6MTk5MDY4ODk5OH0.9q6voKu1B0YCBeHQ6rPt6peGSxSxZTeGtq38x3X_gdw')
+
             await supabase.from('contacts').insert({ name: this.name, email: this.email, message: this.message })
             alert('Message sent thank you !')
             this.$router.push('/')
