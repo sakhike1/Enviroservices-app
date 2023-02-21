@@ -8,7 +8,7 @@
       <!-- Section: Design Block -->
       <section class="mb-32 hover:bg-gray-900">
         <div class="relative overflow-hidden hover:bg-gray-900 bg-no-repeat bg-cover" style="
-            ">
+              ">
           <img src="~/assets/1674470739426-0c2f4174-633e-4f55-9b6f-bd5756604247-3072.png" alt=""
             style=" height: 550px; background-position: 100%; width: 100%;">
           <div />
@@ -21,7 +21,7 @@
                 </h2>
                 <NuxtLink to="Service">
                   <button to="Services" type="button"
-                    class="inline-block rounded-full bg-green-800 px-10 py-5  text-white font-medium text-sm leading-snug  rounded hover:bg-green-600 hover:bg-opacity-4 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+                    class="inline-block  bg-green-800 px-10 py-5  text-white font-medium text-sm leading-snug  rounded hover:bg-green-600 hover:bg-opacity-4 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
                     data-mdb-ripple="true" data-mdb-ripple-color="light">
                     Learn more
                   </button>
@@ -37,7 +37,7 @@
 
     <!-- End Features -->
     <!-- End Features -->
-  </NuxtErrorBoundary>
+</NuxtErrorBoundary>
 </template>
 
 <script>

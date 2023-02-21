@@ -1,5 +1,4 @@
-<template>
-  <!-- Features -->
+<template><!-- Features -->
   <section data-aos="zoom-in-left" class="overflow-hidden border-none  sm:grid pt-20 sm:grid-cols-2 sm:items-center">
     <div class="p-8 md:p-12 lg:px-16 lg:py-24">
       <div class="mx-auto max-w-xl text-center sm:text-left">
@@ -28,12 +27,11 @@
 
     <img alt="Violin"
       src="https://media.istockphoto.com/id/607653484/photo/scientist-examing-toxic-water.jpg?s=612x612&w=0&k=20&c=ksT_OB3i5Jcd3RMWZhVFBvge97JcjK8TnWzv4dN1MGI="
-      class="h-full z-40 w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-tl-[30px] md:h-[calc(100%_-_4rem)] md:rounded-tl-[60px]" />
+      class="h-full hover:scale-95 z-40 w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-tl-[30px] md:h-[calc(100%_-_4rem)] md:rounded-tl-[60px]" />
   </section>
 
 
-  <!-- End Features -->
-</template>
+<!-- End Features --></template>
 
 <script>
 import AOS from 'aos'

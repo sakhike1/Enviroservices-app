@@ -1,5 +1,4 @@
-<template >
-    <!-- Container for demo purpose -->
+<template ><!-- Container for demo purpose -->
     <!-- component -->
     <section class="pt-10 bg-gray-100 sm:pt-16 lg:pt-24">
         <div data-aos="fade-up" data-aos-duration="3000" class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
@@ -31,8 +30,7 @@
 
 
 
-    <!-- Container for demo purpose -->
-</template>
+<!-- Container for demo purpose --></template>
 
 <script>
 import AOS from 'aos'

@@ -1,8 +1,7 @@
 <template>
-
     <section class="hover:bg-gray-900">
         <div class="relative overflow-hidden hover:bg-gray-900 bg-no-repeat bg-cover" style="
-            ">
+                                                                                    ">
             <img src="~/assets/bg.png" alt="" style=" height: 900px; background-position: 100%; width: 100%;">
 
 
@@ -14,7 +13,7 @@
                 style="background-color: rgba(0, 0, 0, 0.55)">
 
                 <div class="flex-1 lg:flex lg:items-center lg:-mx-6">
-                    <div data-aos="fade-up" data-aos-duration="3000" class="text-white lg:w-1/2 lg:mx-6">
+                    <div data-aos="fade-up" data-aos-duration="3000" class="text-white mt-8 lg:w-1/2 lg:mx-6">
                         <h1 class="text-3xl font-semibold capitalize lg:text-4xl">
                             For any environmental needs
                         </h1>
@@ -27,7 +26,7 @@
                             <Nuxt-link to="Sales">
                                 <button
                                     class="max-w-xl text-xs text-gray-200 mt-6 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-base px-6 py-3.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                                    Give us a call
+                                    Speak to expects
                                 </button>
                             </Nuxt-link>
                         </p>
@@ -36,7 +35,7 @@
 
                     <div class="mt-8 lg:w-1/2 lg:mx-6">
                         <div data-aos="fade-up" data-aos-duration="3000"
-                            class="w-full px-10 py-10 mx-auto overflow-hidden bg-white shadow-2xl rounded-xl dark:bg-gray-900 lg:max-w-xl">
+                            class="w-full bg-gradient-to-r from-gray-100 to-gray-200 px-10 py-10 mx-auto overflow-hidden bg-white shadow-2xl rounded-xl dark:bg-gray-900 lg:max-w-xl">
                             <h1 class="text-2xl font-medium text-gray-700 dark:text-gray-200">
                                 Contact Us
                             </h1>
@@ -79,9 +78,8 @@
             </div>
         </div>
         <div />
-    </section>
-    <!-- Container for demo purpose -->
-</template>
+</section>
+<!-- Container for demo purpose --></template>
 
 <script>
 import AOS from 'aos'
@@ -114,6 +112,4 @@ export default {
 }
 </script>
 
-<style>
-
-</style>
+<style></style>

@@ -21,8 +21,7 @@
                                         Email address
                                     </label>
                                     <div class="mt-2.5">
-                                        <input required type="email" name="" id=""
-                                            placeholder="Enter email to get started"
+                                        <input required type="email" name="" id="" placeholder="Enter email to get started"
                                             class="block w-full p-4 text-black placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-md bg-gray-50 focus:outline-none focus:border-blue-600 focus:bg-white caret-blue-600" />
                                     </div>
                                 </div>
@@ -72,6 +71,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 export default {
+    middleware: 'auth',
 
     mounted() {
         AOS.init({});
