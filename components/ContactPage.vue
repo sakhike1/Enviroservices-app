@@ -1,7 +1,7 @@
 <template>
     <section class="hover:bg-gray-900">
         <div class="relative overflow-hidden hover:bg-gray-900 bg-no-repeat bg-cover" style="
-                                                                                                        ">
+                                                                                                                ">
             <img src="~/assets/bg.png" alt="" style=" height: 900px; background-position: 100%; width: 100%;">
 
 
@@ -87,6 +87,7 @@ import 'aos/dist/aos.css'
 import { createClient } from "@supabase/supabase-js";
 
 
+
 export default {
     mounted() {
         AOS.init({})
@@ -106,7 +107,7 @@ export default {
             const supabase = createClient('https://fkwcupzorassszwjghru.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZrd2N1cHpvcmFzc3N6d2pnaHJ1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2NzUxMTI5OTgsImV4cCI6MTk5MDY4ODk5OH0.9q6voKu1B0YCBeHQ6rPt6peGSxSxZTeGtq38x3X_gdw')
             await supabase.from('contacts').insert({ name: this.name, email: this.email, message: this.message })
             alert('Message sent thank you !')
-            this.$router.push('home')
+            this.$router.push('/')
         }
     }
 }
